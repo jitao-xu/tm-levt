@@ -26,6 +26,19 @@ fairseq-preprocess \
     --workers 40
 ```
 
+To facilitate further research, we also release the data split index for the dataset we used in [data-idx.tar.gz](https://github.com/jitao-xu/tm-levt/blob/main/data-idx.tar.gz). Links to download the data of each domain can be found as follow:  
+https://opus.nlpl.eu/download.php?f=ECB/v1/moses/en-fr.txt.zip  
+https://opus.nlpl.eu/download.php?f=EMEA/v3/moses/en-fr.txt.zip  
+https://opus.nlpl.eu/download.php?f=Europarl/v8/moses/en-fr.txt.zip  
+https://opus.nlpl.eu/download.php?f=GNOME/v1/moses/en-fr.txt.zip  
+https://opus.nlpl.eu/download.php?f=JRC-Acquis/en-fr.txt.zip  
+https://opus.nlpl.eu/download.php?f=KDE4/v2/moses/en-fr.txt.zip  
+https://opus.nlpl.eu/download.php?f=News-Commentary/v16/moses/en-fr.txt.zip  
+https://opus.nlpl.eu/download.php?f=PHP/v1/moses/en-fr.txt.zip  
+https://opus.nlpl.eu/download.php?f=TED2013/v1.1/moses/en-fr.txt.zip  
+https://opus.nlpl.eu/download.php?f=Ubuntu/v14.10/moses/en-fr.txt.zip  
+https://opus.nlpl.eu/download.php?f=Wikipedia/v1.0/moses/en-fr.txt.zip  
+
 ## Training
 
 Use this command to train a TM-LevT model with preprocessed data in `$data/bin`:
